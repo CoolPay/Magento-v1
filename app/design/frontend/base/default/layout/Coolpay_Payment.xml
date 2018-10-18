@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+
+    <coolpaypayment_redirect>
+        <reference name="content">
+            <block type="page/html" name="redirect" template="coolpaypayment/payment/redirect.phtml"></block>
+        </reference>
+    </coolpaypayment_redirect>
+
+</layout>

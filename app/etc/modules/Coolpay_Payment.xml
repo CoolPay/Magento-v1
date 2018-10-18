@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Coolpay_Payment>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Sales/>
+                <Mage_Checkout/>
+            </depends>
+        </Coolpay_Payment>
+    </modules>
+</config>

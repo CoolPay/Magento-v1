@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addItem">
+                <type>js</type>
+                <name>coolpaypayment/jquery/jquery-1.8.3.min.js</name>
+            </action>
+            <action method="addItem">
+                <type>js</type>
+                <name>coolpaypayment/jquery/jquery-no-conflict.js</name>
+            </action>
+            <action method="addItem">
+                <type>js</type>
+                <name>coolpaypayment/coolpay/adminhtml/grid.js</name>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>css/coolpaypayment_grid.css</name>
+            </action>
+        </reference>
+    </default>
+</layout>
