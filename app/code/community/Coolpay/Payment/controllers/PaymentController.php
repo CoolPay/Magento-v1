@@ -112,7 +112,7 @@ class Coolpay_Payment_PaymentController extends Mage_Core_Controller_Front_Actio
         $key = $payment->getConfigData('privatekey');
         $checksum = hash_hmac("sha256", $requestBody, $key);
 
-        if ($checksum == $_SERVER["HTTP_QUICKPAY_CHECKSUM_SHA256"]) {
+        if ($checksum == $_SERVER["HTTP_COOLPAY_CHECKSUM_SHA256"]) {
             Mage::log('Checksum ok', null, 'coolpay_callback.log');
 
             $order = Mage::getModel('sales/order')->loadByIncrementId((int)$request->order_id);
